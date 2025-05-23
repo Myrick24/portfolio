@@ -39,7 +39,7 @@
               <a href="{{ route('about') }}" class="header__link">About </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="{{ route('skills') }}" class="header__link">Skills </a>
+              <a href="{{ route('skills') }}" class="header__lio">Skills </a>
             </li>
             <li class="header__link-wrapper">
               <a href="{{ route('portfolio') }}" class="header__link">
@@ -120,10 +120,9 @@
             </div>
           </div>
           <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">John Doe</h4>
+            <h4 class="heading heading-sm text-lt">Myrick</h4>
             <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
+               I'm Myrick Noel B. Clemente, a passionate BSIT student s <strong>killed</strong> in web and mobile development, driven by innovation and continuous learning.
             </p>
           </div>
         </div>
