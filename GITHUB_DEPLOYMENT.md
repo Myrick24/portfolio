@@ -4,7 +4,7 @@ This guide explains how to deploy this Laravel portfolio to GitHub Pages with a 
 
 ## Prerequisites
 - GitHub account
-- Custom domain (myrk24.me)
+- Custom domain (myrick24.me)
 - Domain registrar access
 
 ## Deployment Steps

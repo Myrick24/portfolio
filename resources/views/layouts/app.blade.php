@@ -39,7 +39,7 @@
               <a href="{{ route('about') }}" class="header__link">About </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="{{ route('skills') }}" class="header__lio">Skills </a>
+              <a href="{{ route('skills') }}" class="header__link">Skills </a>
             </li>
             <li class="header__link-wrapper">
               <a href="{{ route('portfolio') }}" class="header__link">
