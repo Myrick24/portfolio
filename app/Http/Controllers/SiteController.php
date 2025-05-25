@@ -2,37 +2,45 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\Project;
 
 class SiteController extends Controller
-{    public function home()
+{
+    public function home()
     {
-        $featuredProjects = Project::where('is_featured', true)->get();
-        return view('home', compact('featuredProjects'));
+        return view('home');
     }
-    
+
     public function about()
     {
         return view('about');
     }
-    
+
     public function skills()
     {
         return view('skills');
-    }
-      public function portfolio()
+    }    public function portfolio()
     {
-        $projects = Project::all();
-        return view('portfolio', compact('projects'));
+        return view('portfolio');
     }
-    
+
+    public function project1()
+    {
+        return view('project1');
+    }
+    public function project2()
+    {
+        return view('project2');
+    }
+public function project3()
+    {
+        return view('project3');
+    }
     public function contact()
     {
         return view('contact');
     }
-    
+
     public function submitContact(Request $request)
     {
         $validatedData = $request->validate([
@@ -41,8 +49,7 @@ class SiteController extends Controller
             'message' => 'required|string',
         ]);
         
-        // Store in session for display purposes
-        session()->flash('form_data', $validatedData);
+        // Just collect inputs, no backend email sending as per requirements
         
         return redirect()->route('contact')->with('success', 'Thank you for your message!');
     }

@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>@yield('title', 'Portfolio')</title>    <meta name="description" content="@yield('description', 'Portfolio Template for Developer')" />
+    <title>@yield('title', 'Portfolio')</title>
+    <meta name="description" content="@yield('description', 'Portfolio Template for Developer')" />
 
     <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/custom.css') }}" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,14 +24,14 @@
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
-              src="{{ asset('assets/png/myrick.png') }}"
+              src="{{ asset('assets/png/john-doe.png') }}"
               alt="John Doe Logo Image"
               class="header__logo-img"
             />
           </div>
-          <span class="header__logo-sub">Myrick </span>
-        </div>        <div class="header__main">
-          <ul class="header__links">
+          <span class="header__logo-sub">Myrick</span>
+        </div>
+        <div class="header__main">          <ul class="header__links">
             <li class="header__link-wrapper">
               <a href="{{ route('home') }}" class="header__link"> Home </a>
             </li>
@@ -65,22 +65,25 @@
         </div>
       </div>
       <div class="header__sm-menu">
-        <div class="header__sm-menu-content">
-          <ul class="header__sm-menu-links">
+        <div class="header__sm-menu-content">          <ul class="header__sm-menu-links">
             <li class="header__sm-menu-link">
               <a href="{{ route('home') }}"> Home </a>
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="{{ route('home') }}#about"> About </a>
+              <a href="{{ route('about') }}"> About </a>
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="{{ route('home') }}#projects"> Projects </a>
+              <a href="{{ route('skills') }}"> Skills </a>
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="{{ route('home') }}#contact"> Contact </a>
+              <a href="{{ route('portfolio') }}"> Portfolio </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="{{ route('contact') }}"> Contact </a>
             </li>
           </ul>
         </div>
@@ -95,40 +98,55 @@
           <div class="main-footer__row main-footer__row-1">
             <h2 class="heading heading-sm main-footer__heading-sm">
               <span>Social</span>
-            </h2>            <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="https://www.facebook.com/myrick.noel.clemente">
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="#">
                 <img
                   class="main-footer__icon"
                   src="{{ asset('assets/png/linkedin-ico.png') }}"
-                  alt="Facebook"
+                  alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="https://github.com/Myrick24">
+              <a target="_blank" rel="noreferrer" href="#">
                 <img
                   class="main-footer__icon"
                   src="{{ asset('assets/png/github-ico.png') }}"
-                  alt="GitHub"
+                  alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/myrkz_/">
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="{{ asset('assets/png/twitter-ico.png') }}"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="{{ asset('assets/png/yt-ico.png') }}"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
                 <img
                   class="main-footer__icon main-footer__icon--mr-none"
                   src="{{ asset('assets/png/insta-ico.png') }}"
-                  alt="Instagram"
+                  alt="icon"
                 />
               </a>
             </div>
           </div>
           <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">Myrick</h4>
+            <h4 class="heading heading-sm text-lt">Myrick Noel B. Clemente</h4>
             <p class="main-footer__short-desc">
-               I'm Myrick Noel B. Clemente, a passionate BSIT student s <strong>killed</strong> in web and mobile development, driven by innovation and continuous learning.
+              A passionate full stack app and web developer  with AI and IT student from the Mabini, dedicated to building user-friendly digital solutions with a focus on design, security, and innovation.
             </p>
           </div>
-        </div>
+        </div> 
 
         <div class="main-footer__lower">
-          &copy; Copyright {{ date('Y') }}. Made with Laravel.
+          &copy; Copyright by Myrick {{ date('Y') }}. Made with Laravel.
         </div>
       </div>
     </footer>

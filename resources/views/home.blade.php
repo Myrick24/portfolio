@@ -8,41 +8,58 @@
     <h1 class="heading-primary">Hey, My name is Myrick Noel B. Clemente</h1>
     <div class="home-hero__info">
       <p class="text-primary">
-        I'm a full-stack app and web developer sabi ni Chat-GPT. Currently, I'm focused on creating accessible, 
-        human-centered products at a software development company.
+       I'm <strong>Myrick Noel B. Clemente </strong>, a passionate BSIT student skilled in web and mobile development, driven by innovation and continuous learning.
       </p>
     </div>
     <div class="home-hero__cta">
-      <a href="{{ route('portfolio') }}" class="btn btn--bg">Projects</a>
+      <a href="#projects" class="btn btn--bg">Projects</a>
     </div>
   </div>
-  <div class="home-hero__socials">    <div class="home-hero__social">
-      <a href="https://www.facebook.com/myrick.noel.clemente" class="home-hero__social-icon-link" target="_blank" rel="noopener">
+  <div class="home-hero__socials">
+    <div class="home-hero__social">
+      <a href="#" class="home-hero__social-icon-link">
         <img
           src="{{ asset('assets/png/linkedin-ico.png') }}"
-          alt="Facebook"
+          alt="icon"
           class="home-hero__social-icon"
         />
       </a>
     </div>
     <div class="home-hero__social">
-      <a href="https://github.com/Myrick24" class="home-hero__social-icon-link" target="_blank" rel="noopener">
+      <a href="#" class="home-hero__social-icon-link">
         <img
           src="{{ asset('assets/png/github-ico.png') }}"
-          alt="GitHub"
+          alt="icon"
+          class="home-hero__social-icon"
+        />
+      </a>
+    </div>
+    <div class="home-hero__social">
+      <a href="#" class="home-hero__social-icon-link">
+        <img
+          src="{{ asset('assets/png/twitter-ico.png') }}"
+          alt="icon"
+          class="home-hero__social-icon"
+        />
+      </a>
+    </div>
+    <div class="home-hero__social">
+      <a href="#" class="home-hero__social-icon-link">
+        <img
+          src="{{ asset('assets/png/yt-ico.png') }}"
+          alt="icon"
           class="home-hero__social-icon"
         />
       </a>
     </div>
     <div class="home-hero__social">
       <a
-        href="https://www.instagram.com/myrkz_/"
+        href="#"
         class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
-        target="_blank" rel="noopener"
       >
         <img
           src="{{ asset('assets/png/insta-ico.png') }}"
-          alt="Instagram"
+          alt="icon"
           class="home-hero__social-icon"
         />
       </a>
@@ -52,54 +69,61 @@
     <div class="mouse"></div>
   </div>
 </section>
-<section id="about" class="about sec-pad">
-  <div class="main-container">
+<section id="about" class="about sec-pad">  <div class="main-container">
     <h2 class="heading heading-sec heading-sec__mb-med">
       <span class="heading-sec__main">About Me</span>
-      <span class="heading-sec__sub">
-        I'm Myrick Noel B. Clemente, a passionate BSIT student s <strong>killed</strong> in web and mobile development, driven by innovation and continuous learning.
-      </span>
     </h2>
+    <div class="about-header-container" style="display: flex; align-items: center; gap: 20px; margin-bottom: 30px;">      <div class="about__content-img-cont">
+        <img
+          src="{{ asset('assets/png/john-doe.png') }}"
+          alt="Myrick Noel B. Clemente"
+          class="about__content-img"
+          style="width: 250px; height: 250px; object-fit: cover; border-radius: 50%; border: 3px solid #333;"
+        />
+      </div>
+      <span class="heading-sec__sub">
+        A passionate full stack app and web developer with AI and IT student from the Mabini, dedicated to building user-friendly digital solutions with a focus on design, security, and innovation.
+      </span>
+    </div>
     <div class="about__content">
-      <div class="about__content-main">
-        <h3 class="about__content-title">Get to know me!</h3>
-        <div class="about__content-details">
-          <p class="about__content-details-para">
-            Hey! It's
-            <strong>Myrick</strong>
-            and I'm a <strong> Fullstack App and Web Developer but with AI </strong> located in
-            Deguzman Mabini Pangasinan. I've done
-            <strong> worked </strong>
-            on academic and freelance projects, collaborated with awesome teams, and helped build 
-            <strong>digital solutions  </strong>
-            for community-focused and sustainable initiatives.
-          </p>
-          <p class="about__content-details-para">
-            I’m a bit of a tech and design enthusiast. Over the years, I’ve explored and worked with a wide range of tools, web apps, and mobile platforms across different domains—from security-focused systems developed, to E-commerce apps like Harvest. Feel free to
-            <strong>contact</strong> me here.
-          </p>
+        <div class="about__content-main">       
+        <div class="about__content-text">
+          <h3 class="about__content-title">Get to know me!</h3>
+          <div class="about__content-details">
+            <p class="about__content-details-para">
+              Hey! It's
+              <strong>Myrick Noel B. Clemente</strong>
+              and I'm a <strong> Full-stack Mobile and Web Developer with AI </strong> located in
+              Mabini. I've
+              <strong> worked </strong>
+             on academic and freelance projects, collaborated with awesome teams, and helped build  
+              <strong>digital solutions </strong>
+              for community-focused and sustainable initiatives.
+            </p>
+            <p class="about__content-details-para">
+             I’m a bit of a tech and design enthusiast. Over the years, I’ve explored and worked with a wide range of tools, web apps, and mobile platforms across different domains—from security-focused systems develope, to E-commerce apps like Harvest.
+              <strong>contact</strong> me here.
+            </p>
+          </div>
+          <a href="#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
         </div>
-        <a href="#contact" class="btn btn--med btn--theme dynamicBgClr"
-          >Contact</a
-        >
       </div>
       <div class="about__content-skills">
         <h3 class="about__content-title">My Skills</h3>
         <div class="skills">
-      
           <div class="skills__skill">HTML</div>
           <div class="skills__skill">CSS</div>
-          <div class="skills__skill">Canva</div>
-           <div class="skills__skill">PhotoShop</div>
-           <div class="skills__skill">Flutter</div>
-            <div class="skills__skill">Firebase</div>
+          <div class="skills__skill">JavaScript</div>
+          <div class="skills__skill">React</div>
+          <div class="skills__skill">SASS</div>
           <div class="skills__skill">GIT</div>
-   <div class="skills__skill">Capcut</div>
+          <div class="skills__skill">Shopify</div>
+          <div class="skills__skill">Wordpress</div>
+          <div class="skills__skill">Google ADS</div>
+          <div class="skills__skill">Facebook Ads</div>
           <div class="skills__skill">Android</div>
-        <div class="skills__skill">Ml</div>
-         <div class="skills__skill">Mag AI</div>
+          <div class="skills__skill">IOS</div>
           <div class="skills__skill">Laravel</div>
-           <div class="skills__skill">Magpa baby</div>
         </div>
       </div>
     </div>
@@ -108,54 +132,85 @@
 <section id="projects" class="projects sec-pad">
   <div class="main-container">
     <h2 class="heading heading-sec heading-sec__mb-bg">
-      <span class="heading-sec__main">Featured Projects</span>
+      <span class="heading-sec__main">Projects</span>
       <span class="heading-sec__sub">
-        Here are some of my recent work and personal projects
+       Here's a showcase of my recent projects, where I apply my skills in web and mobile development to create innovative solutions. Each project reflects my commitment to quality and user experience.
       </span>
     </h2>
 
     <div class="projects__content">
-      @forelse($featuredProjects as $project)
       <div class="projects__row">
         <div class="projects__row-img-cont">
           <img
-            src="{{ asset($project->image) }}"
-            alt="{{ $project->title }} Screenshot"
+            src="{{ asset('assets/jpeg/project-mockup-example.jpeg') }}"
+            alt="Software Screenshot"
             class="projects__row-img"
             loading="lazy"
           />
         </div>
         <div class="projects__row-content">
-          <h3 class="projects__row-content-title">{{ $project->title }}</h3>
+          <h3 class="projects__row-content-title">Project 1</h3>
           <p class="projects__row-content-desc">
-            {{ $project->description }}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+            facilis tempora, explicabo quae quod deserunt eius sapiente
+            praesentium.
           </p>
-          <div class="projects__row-content-tech">
-            <p><strong>Technologies:</strong> {{ $project->tech_stack }}</p>
-          </div>
-          <div class="projects__btn-group">
-            @if($project->github_url)
-            <a href="{{ $project->github_url }}" class="btn btn--med btn--theme-inv" target="_blank" rel="noreferrer">
-              GitHub
-            </a>
-            @endif
-            @if($project->live_url)
-            <a href="{{ $project->live_url }}" class="btn btn--med btn--theme dynamicBgClr" target="_blank" rel="noreferrer">
-              Live Demo
-            </a>
-            @endif
-          </div>
+          <a
+            href="{{ route('project1') }}"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >Case Study</a
+          >
         </div>
       </div>
-      @empty
-      <div class="projects__empty">
-        <p>No featured projects available at the moment. Check back soon!</p>
+      <div class="projects__row">
+        <div class="projects__row-img-cont">
+          <img
+            src="{{ asset('assets/jpeg/project-mockup-example.jpeg') }}"
+            alt="Software Screenshot"
+            class="projects__row-img"
+            loading="lazy"
+          />
+        </div>
+        <div class="projects__row-content">
+          <h3 class="projects__row-content-title">Project 2</h3>
+          <p class="projects__row-content-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+            facilis tempora, explicabo quae quod deserunt eius sapiente
+            praesentium.
+          </p>
+          <a
+            href="{{ route('project2') }}"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >Case Study</a
+          >
+        </div>
       </div>
-      @endforelse
-    </div>
-    
-    <div class="text-center mt-4">
-      <a href="{{ route('portfolio') }}" class="btn btn--med btn--theme">View All Projects</a>
+      <div class="projects__row">
+        <div class="projects__row-img-cont">
+          <img
+            src="{{ asset('assets/jpeg/project-mockup-example.jpeg') }}"
+            alt="Software Screenshot"
+            class="projects__row-img"
+            loading="lazy"
+          />
+        </div>
+        <div class="projects__row-content">
+          <h3 class="projects__row-content-title">Project 3</h3>
+          <p class="projects__row-content-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+            facilis tempora, explicabo quae quod deserunt eius sapiente
+            praesentium.
+          </p>
+          <a
+            href="{{ route('project3') }}"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >Case Study</a
+          >
+        </div>
+      </div>
     </div>
   </div>
 </section>

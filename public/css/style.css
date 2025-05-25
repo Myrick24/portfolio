@@ -12,6 +12,39 @@ $breakpoint arguement choices:
 
 Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only inside media queries
 */
+
+/* Additional styles for skills page */
+.skills-section {
+  background: #f0f0f0;
+}
+.skills-content {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+.skills-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+.skills-item {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.skills-item-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+.skills-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
 *,
 *::after,
 *::before {
