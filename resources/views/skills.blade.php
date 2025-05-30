@@ -10,10 +10,10 @@
             <span class="heading-sec__sub">
                 Here are my technical skills and expertise
             </span>
-        </h2>
-        <div class="skills-content">
-            <div class="skills-row">
-                <div class="skills-col">
+        </h2>        <div class="skills-content">
+            <!-- First Row -->
+            <div class="skills-row" style="display: flex; flex-wrap: wrap; gap: 30px; margin-bottom: 30px;">
+                <div class="skills-col" style="flex: 1; min-width: 300px;">
                     <div class="skills-item">
                         <h3 class="skills-item-title">Front-End</h3>
                         <ul class="skills-list">
@@ -26,29 +26,46 @@
                         </ul>
                     </div>
                 </div>
-                <div class="skills-col">
+                <div class="skills-col" style="flex: 1; min-width: 300px;">
                     <div class="skills-item">
                         <h3 class="skills-item-title">Back-End</h3>
                         <ul class="skills-list">
                             <li>PHP</li>
                             <li>Laravel</li>
                             <li>Node.js</li>
-                            <li>Express</li>
+                            <li>Firebase</li>
                             <li>MySQL</li>
                             <li>MongoDB</li>
                         </ul>
                     </div>
                 </div>
-                <div class="skills-col">
+            </div>
+            
+            <!-- Second Row -->
+            <div class="skills-row" style="display: flex; flex-wrap: wrap; gap: 30px;">
+                <div class="skills-col" style="flex: 1; min-width: 300px;">
+                    <div class="skills-item">
+                        <h3 class="skills-item-title">Design</h3>
+                        <ul class="skills-list">
+                            <li>Photoshop</li>
+                            <li>Canva</li>
+                            <li>Capcut</li>
+                            <li>Figma</li>
+                            <li>Adobe XD</li>
+                            <li>Illustrator</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skills-col" style="flex: 1; min-width: 300px;">
                     <div class="skills-item">
                         <h3 class="skills-item-title">Tools</h3>
                         <ul class="skills-list">
                             <li>Git</li>
                             <li>GitHub</li>
                             <li>VS Code</li>
-                            <li>Docker</li>
+                            <li>Canva</li>
                             <li>Figma</li>
-                            <li>Adobe XD</li>
+                            <li>Adobe Photoshop</li>
                         </ul>
                     </div>
                 </div>

@@ -1,0 +1,148 @@
+/* Enhanced image click animation for normal size images */
+
+/* Add a subtle hover effect for images */
+.projects__row-img-cont img,
+.project-details__showcase-img-cont img {
+  transition: all 0.3s ease;
+}
+
+.projects__row-img-cont:hover img,
+.project-details__showcase-img-cont:hover img {
+  filter: brightness(1.05);
+}
+
+/* Better image change animation */
+@keyframes fadeInOutScale {
+  0% {
+    opacity: 0.7;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Image that has been switched will use this animation */
+.image-switched {
+  animation: fadeInOutScale 0.5s ease-in-out;
+}
+
+/* Gallery title styles */
+.project-gallery-title {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #777;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Make the pagination dots more visible */
+.pagination-dot {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.pagination-dot.active {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+/* Add an instruction tooltip */
+.image-click-tooltip {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 5;
+  pointer-events: none;
+  text-align: center;
+}
+
+.projects__row-img-cont:hover .image-click-tooltip,
+.project-details__showcase-img-cont:hover .image-click-tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Logo icon animation on hover */
+.header__logo-secondary-img {
+  transition: transform 0.4s ease;
+  margin-right: 0;
+}
+
+.header__logo-container:hover .header__logo-secondary-img {
+  transform: translateX(-10px);
+}
+
+/* Logo text animation on hover */
+.header__logo-text-animation {
+  display: inline-block;
+  max-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: max-width 0.5s ease, color 0.3s ease;
+  opacity: 0;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.header__logo-container:hover .header__logo-text-animation {
+  max-width: 100px; /* Enough space to show the text */
+  color: #000000;
+  opacity: 1;
+  transition: max-width 0.5s ease, opacity 0.3s ease 0.2s, color 0.3s ease;
+}
+
+/* Individual letter animation with staggered delay */
+.header__logo-letter {
+  display: inline-block;
+  transform: translateX(-20px);
+  opacity: 0;
+  transition: transform 0.4s ease, opacity 0.3s ease, color 0.3s ease;
+}
+
+.header__logo-container:hover .header__logo-letter:nth-child(1) {
+  transition-delay: 0.05s;
+  transform: translateX(0);
+  opacity: 1;
+  color: #000000;
+}
+
+.header__logo-container:hover .header__logo-letter:nth-child(2) {
+  transition-delay: 0.1s;
+  transform: translateX(0);
+  opacity: 1;
+  color: #000000;
+}
+
+.header__logo-container:hover .header__logo-letter:nth-child(3) {
+  transition-delay: 0.15s;
+  transform: translateX(0);
+  opacity: 1;
+  color: #000000;
+}
+
+.header__logo-container:hover .header__logo-letter:nth-child(4) {
+  transition-delay: 0.2s;
+  transform: translateX(0);
+  opacity: 1;
+  color: #000000;
+}
+
+.header__logo-container:hover .header__logo-letter:nth-child(5) {
+  transition-delay: 0.25s;
+  transform: translateX(0);
+  opacity: 1;
+  color: #000000;
+}

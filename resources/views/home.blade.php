@@ -6,9 +6,8 @@
 <section class="home-hero">
   <div class="home-hero__content">
     <h1 class="heading-primary">Hey, My name is Myrick Noel B. Clemente</h1>
-    <div class="home-hero__info">
-      <p class="text-primary">
-       I'm <strong>Myrick Noel B. Clemente </strong>, a passionate BSIT student skilled in web and mobile development, driven by innovation and continuous learning.
+    <div class="home-hero__info">      <p class="text-primary">
+       I'm <strong>Myrick Noel B. Clemente </strong>, a passionate BSIT student skilled in <span class="typing-text" id="typing-element"><stong>Web Development </stong></span>, driven by innovation and continuous learning.
       </p>
     </div>
     <div class="home-hero__cta">
@@ -82,7 +81,7 @@
         />
       </div>
       <span class="heading-sec__sub">
-        A passionate full stack app and web developer with AI and IT student from the Mabini, dedicated to building user-friendly digital solutions with a focus on design, security, and innovation.
+        A passionate full stack app and web developer and design enthusiast and IT student from the Mabini, dedicated to building user-friendly digital solutions with a focus on design, security, and innovation.
       </span>
     </div>
     <div class="about__content">
@@ -93,7 +92,7 @@
             <p class="about__content-details-para">
               Hey! It's
               <strong>Myrick Noel B. Clemente</strong>
-              and I'm a <strong> Full-stack Mobile and Web Developer with AI </strong> located in
+              and I'm a <strong> Full-stack Mobile and Web Developer and A Design enthusiast </strong> located in
               Mabini. I've
               <strong> worked </strong>
              on academic and freelance projects, collaborated with awesome teams, and helped build  
@@ -114,15 +113,15 @@
           <div class="skills__skill">HTML</div>
           <div class="skills__skill">CSS</div>
           <div class="skills__skill">JavaScript</div>
-          <div class="skills__skill">React</div>
-          <div class="skills__skill">SASS</div>
+          <div class="skills__skill">Flutter</div>
+          <div class="skills__skill">Firebase</div>
           <div class="skills__skill">GIT</div>
-          <div class="skills__skill">Shopify</div>
-          <div class="skills__skill">Wordpress</div>
-          <div class="skills__skill">Google ADS</div>
-          <div class="skills__skill">Facebook Ads</div>
-          <div class="skills__skill">Android</div>
-          <div class="skills__skill">IOS</div>
+          <div class="skills__skill">MySql</div>
+          <div class="skills__skill">Photoshop</div>
+          <div class="skills__skill">Figma</div>
+          <div class="skills__skill">Canva</div>
+          <div class="skills__skill">Capcut</div>
+         
           <div class="skills__skill">Laravel</div>
         </div>
       </div>
@@ -138,22 +137,23 @@
       </span>
     </h2>
 
-    <div class="projects__content">
-      <div class="projects__row">
+    <div class="projects__content">      <div class="projects__row">
         <div class="projects__row-img-cont">
-          <img
-            src="{{ asset('assets/jpeg/project-mockup-example.jpeg') }}"
-            alt="Software Screenshot"
-            class="projects__row-img"
-            loading="lazy"
-          />
+         <img
+                        src="{{ asset('assets/jpeg/project-2-a.jpg') }}"
+                        alt="Harvest E-Commerce App"
+                        class="project-details__showcase-img"
+                    />
+                    <img
+                        src="{{ asset('assets/jpeg/project-2-b.jpg') }}"
+                        alt="Harvest E-Commerce App - Feature"
+                        class="project-details__showcase-img"
+                    />
         </div>
         <div class="projects__row-content">
-          <h3 class="projects__row-content-title">Project 1</h3>
+          <h3 class="projects__row-content-title">Harvest E-Commerce App</h3>
           <p class="projects__row-content-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-            facilis tempora, explicabo quae quod deserunt eius sapiente
-            praesentium.
+            A farm-to-table e-commerce platform connecting local farmers directly with consumers, featuring secure payments, inventory management, and interactive farmer profiles.
           </p>
           <a
             href="{{ route('project1') }}"
@@ -162,22 +162,23 @@
             >Case Study</a
           >
         </div>
-      </div>
-      <div class="projects__row">
+      </div>      <div class="projects__row">
         <div class="projects__row-img-cont">
-          <img
-            src="{{ asset('assets/jpeg/project-mockup-example.jpeg') }}"
-            alt="Software Screenshot"
-            class="projects__row-img"
-            loading="lazy"
-          />
+           <img
+                        src="{{ asset('assets/jpeg/project-3-a.jpg') }}"
+                        alt="Security ni Jomar App"
+                        class="project-details__showcase-img"
+                    />
+                    <img
+                        src="{{ asset('assets/jpeg/project-3-b.jpg') }}"
+                        alt="Security ni Jomar App - Feature"
+                        class="project-details__showcase-img"
+                    />
         </div>
         <div class="projects__row-content">
-          <h3 class="projects__row-content-title">Project 2</h3>
+          <h3 class="projects__row-content-title">Security ni Jomar</h3>
           <p class="projects__row-content-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-            facilis tempora, explicabo quae quod deserunt eius sapiente
-            praesentium.
+            A comprehensive mobile security application with advanced features including biometric authentication, threat detection, file encryption, and emergency SOS functionality.
           </p>
           <a
             href="{{ route('project2') }}"
@@ -186,22 +187,18 @@
             >Case Study</a
           >
         </div>
-      </div>
-      <div class="projects__row">
+      </div>      <div class="projects__row">
         <div class="projects__row-img-cont">
-          <img
-            src="{{ asset('assets/jpeg/project-mockup-example.jpeg') }}"
-            alt="Software Screenshot"
-            class="projects__row-img"
-            loading="lazy"
-          />
+           <img
+                        src="{{ asset('assets/jpeg/project-1.png') }}"
+                        alt="Portfolio Website"
+                        class="project-details__showcase-img"
+                    />
         </div>
         <div class="projects__row-content">
-          <h3 class="projects__row-content-title">Project 3</h3>
+          <h3 class="projects__row-content-title">Portfolio Website</h3>
           <p class="projects__row-content-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-            facilis tempora, explicabo quae quod deserunt eius sapiente
-            praesentium.
+            A responsive professional portfolio website built with Laravel, featuring modern design, animated elements, project showcases, and a contact form with email notifications.
           </p>
           <a
             href="{{ route('project3') }}"
@@ -219,8 +216,7 @@
     <h2 class="heading heading-sec heading-sec__mb-med">
       <span class="heading-sec__main heading-sec__main--lt">Contact</span>
       <span class="heading-sec__sub heading-sec__sub--lt">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-        tempora explicabo quae quod deserunt eius sapiente
+        Feel free to contact me by submitting the form below or reach out directly
       </span>
     </h2>    <div class="contact__form-container">
       @if(session('success'))

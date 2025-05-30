@@ -1,0 +1,30 @@
+/* Project showcase styling */
+.project-details__showcase {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 4rem;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Make sure the image container fits nicely */
+.project-details__showcase .project-details__showcase-img-cont {
+  margin-bottom: 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* Add a nice title for the image gallery */
+.project-details__showcase::before {
+  content: 'Project Gallery';
+  display: block;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}

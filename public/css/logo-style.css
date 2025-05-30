@@ -1,0 +1,38 @@
+/* M-shape logo styling */
+.m-shape {
+  position: relative;
+  clip-path: polygon(
+    0% 100%, /* bottom left */
+    25% 30%, /* mid-left point */
+    50% 100%, /* bottom center */
+    75% 30%, /* mid-right point */
+    100% 100%, /* bottom right */
+    100% 0%, /* top right */
+    0% 0% /* top left */
+  );
+  background: #0062b9;
+}
+
+/* Hide the M letter visually but keep for screen readers */
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  opacity: 0;
+}
+
+/* Make the profile image fit better in the M shape */
+.header__logo-img-cont.m-shape .header__logo-img {
+  transform: scale(1.1);
+}
+
+/* Style the text to make it appear as just "yrick" */
+.header__logo-sub {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}

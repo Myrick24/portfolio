@@ -4,14 +4,19 @@
 
 @section('content')
 <section class="contact sec-pad">
-    <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-            <span class="heading-sec__main">Contact</span>
-            <span class="heading-sec__sub">
-                Feel free to contact me by submitting the form below
+    <div class="main-container">        <h2 class="heading heading-sec heading-sec__mb-med">
+            <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+            <span class="heading-sec__sub heading-sec__sub--lt">
+                Feel free to contact me by submitting the form below or reach out directly
             </span>
         </h2>
-        <div class="contact__form-container">
+          <!-- Contact Content Container -->
+        <div class="contact__content" style="display: flex; gap: 40px; align-items: flex-start; flex-wrap: wrap;">
+            <!-- Contact Information Section -->
+            
+            
+            <!-- Contact Form Section -->
+            <div class="contact__form-container" style="flex: 1; min-width: 300px;">
             @if(session('success'))
                 <div class="alert alert-success">
                     {{ session('success') }}
@@ -53,12 +58,13 @@
                         name="message"
                         id="message"
                     ></textarea>
-                </div>
-                <button type="submit" class="btn btn--theme contact__btn">
+                </div>                <button type="submit" class="btn btn--theme contact__btn">
                     Submit
                 </button>
             </form>
+            
         </div>
-    </div>
+       
+</div>
 </section>
 @endsection

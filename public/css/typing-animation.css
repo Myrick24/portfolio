@@ -1,0 +1,24 @@
+/* Typewriter animation styles */
+.typing-text {
+    
+  display: inline-block;
+  position: relative;
+  color: #000000;
+  font-weight: 600;
+}
+
+
+
+@keyframes cursor-blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/* When text is being deleted */
+.typing-text.deleting::after {
+  animation: cursor-blink 0.5s infinite step-end;
+}

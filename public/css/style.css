@@ -312,7 +312,10 @@ textarea {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   grid-gap: 5rem;
-  margin-bottom: 11rem; }
+  margin-bottom: 8rem; 
+  padding-bottom: 5rem;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
   @media only screen and (max-width: 56.25em) {
     .projects__row {
       grid-template-columns: 1fr;
@@ -324,7 +327,9 @@ textarea {
   .projects__row:last-child {
     margin-bottom: 0; }
   .projects__row-img-cont {
-    overflow: hidden; }
+    overflow: hidden;
+    margin-bottom: 2rem;
+  }
   .projects__row-img {
     width: 100%;
     display: block;
@@ -477,10 +482,15 @@ textarea {
 
 .project-details__showcase-img-cont {
   width: 100%;
-  margin-bottom: 6rem; }
+  margin-bottom: 6rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto; }
 
 .project-details__showcase-img {
-  width: 100%; }
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain; }
 
 .project-details__content-main {
   width: 100%;
